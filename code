@@ -16,7 +16,7 @@ while True:
         hj=cv2.imwrite("dataSet/User." + str(id) + "." + str(sample) + ".jpg", gray[y:y + h, x:x + w])
         img=cv2.rectangle(frame, (x, y), (x + w, y + h), (255, 0, 0), 6)
     if hj==True:
-        print("fuck",a)
+        print("duhh",a)
    # print("[INFO] Image faces_detected.jpg written to filesystem: ", status)
     cv2.imshow("captured",frame)
     key=cv2.waitKey(1)
